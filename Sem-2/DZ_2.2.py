@@ -1,6 +1,3 @@
-from pickle import APPEND
-
-
 def UserNum(text):
     num = 0
     while (num == 0):
