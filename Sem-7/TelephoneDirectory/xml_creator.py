@@ -5,13 +5,13 @@ from UI import descrition_view
 
 def create():
     xml = '<xml>\n'
-    xml += ' <name = "n">{}</Name>\n'\
+    xml += '    <name>{}</name>\n'\
         .format(name_view())
-    xml += ' <surname = "s">{}</Surname>\n'\
+    xml += '    <surname>{}</surname>\n'\
         .format(surname_view())
-    xml += ' <telephone = "t">{}</Telephone_number>\n'\
+    xml += '    <telephone>{}</telephone>\n'\
         .format(telephone_num_view())
-    xml += ' <description = "d">{}</Description>\n'\
+    xml += ' <description>{}</description>\n'\
         .format(descrition_view())
     xml += '</xml>'
 

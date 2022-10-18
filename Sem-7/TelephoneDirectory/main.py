@@ -28,5 +28,7 @@ def command_wait(user_dig):
         case "0":
             exit()
 
+
+cl.create_csv_file()
 dig = get_user_num()
 command_wait(dig)
